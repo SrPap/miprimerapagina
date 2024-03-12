@@ -1,0 +1,385 @@
+
+body {
+    background-color: rgb(139, 255, 164);
+}
+
+.acercade{
+    font-family: Bookman Old Style;
+    border: 2px black solid;
+    margin: 10px;
+    padding: 10px;
+    height: auto;
+    background-color: rgb(85, 255, 42);
+    display: inline-block;
+    height: 210px;
+    width: 610px;
+    text-align: justify;
+    border-radius: 20px;
+    position: relative;
+    top: 0px;
+    left: 80px;
+}
+
+@media (max-width: 768px) {
+    .acercade{
+        height: 210px;
+        width: 610px;
+position: relative;
+left: 130px;
+text-align: center;
+border: 0px;
+background-color: rgb(49, 255, 22);
+border-radius: 50px;
+top: 10px;
+    }
+}
+
+.imagenyo
+{
+    position: relative;
+    top: 20px;
+    left: 100px;
+    bottom: 0px;
+    right: 0px;
+    display:inline-block
+}
+
+@media (max-width: 768px) {
+    .imagenyo{
+       left: 250px;
+top: 15px;
+
+    }
+}
+        
+.seccion2{
+width: 1350px;
+height: 600px;
+position: relative;
+right: 10px;
+}
+
+@media (max-width: 768px) {
+    .seccion2{
+width: 930px;
+height: 450px;
+top: 30px;
+right: 10px;
+position: relative;
+    }
+}
+
+
+.Logostex{
+    font-family: Arial;
+    border: 2px black solid;
+    margin: auto;
+    padding: 20px 20px 20px 50px;
+    height: auto;
+    background-color: rgb(85, 255, 42);
+}
+
+.titulotrabajos{
+    /*  */ color: black;
+}
+
+@media (max-width: 768px) 
+{
+    .titulotrabajos{
+        text-align: center;
+        top: 25px;
+        left: 60px;
+        position: relative;
+        border: 1px;
+    }
+
+}
+
+.trabajo1{
+border: 2px solid;
+border-radius: 40px;
+border-color: black;
+margin: 10px;
+padding: 25px;
+background-color: rgb(85, 255, 42);
+display: inline-block;
+text-align: justify;
+width: 350px;
+height: auto;
+position: static;
+}
+
+@media (max-width: 768px) {
+    .trabajo1{
+width: 400px;
+height: 360px;
+position: relative;
+left: 220px;
+text-align: center;
+border: 0px;
+background-color: rgb(49, 255, 22);
+border-radius: 50px;
+top: 20px;
+    }
+}
+
+
+
+.trabajo2{
+    border: 2px solid;
+    border-radius: 40px;
+    border-color: black;
+    margin: 10px;
+    padding: 25px;
+    background-color: rgb(85, 255, 42);
+    display: inline-block;
+    text-align: justify;
+    width: 350px;
+    height: auto;
+    width: 350px;
+}
+
+@media (max-width: 768px) {
+    .trabajo2{
+width: 400px;
+height: 360px;
+position: relative;
+left: 220px;
+text-align: center;
+border: 0px;
+background-color: rgb(49, 255, 22);
+border-radius: 50px;
+top: 20px;
+    }
+}
+
+
+
+.trabajo3{
+    border: 2px solid;
+    border-radius: 40px;
+    border-color: black;
+    margin: 10px;
+    padding: 25px;
+    background-color: rgb(85, 255, 42);
+    display: inline-block;
+    text-align: justify;
+    width: 350px;
+    height: auto;
+    width: 350px;
+}
+
+@media (max-width: 768px) {
+    .trabajo3{
+width: 400px;
+height: 360px;
+position: relative;
+left: 220px;
+text-align: center;
+border: 0px;
+background-color: rgb(49, 255, 22);
+border-radius: 50px;
+top: 20px;
+    }
+}
+
+
+
+.imageyo{
+    border-radius: 40px;
+    border: 2px solid black;
+}
+
+.planta{
+    width: 50px;
+    height: 50px;
+    left: 500px;
+    display: inline;
+    position: relative;
+}
+
+.ejemplo{
+    border-radius: 0px 90px / 80px;
+    height: 170px;
+    width: 100%;
+    display: block;
+
+}
+
+
+#check{
+    display: none;
+  
+}
+
+.checkbtn{
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    
+    
+}
+
+
+
+
+
+  /* ------------- Encabezado Contacto ------------- */
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-header {
+    text-align: center;
+    background-color: rgb(149, 255, 158);
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    margin: 10px auto;
+    padding: 30px;
+  }
+  
+  .form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* ------------- Formulario ------------- */
+  
+  .formulario {
+    background-color: rgb(60, 255, 135);
+    border: 1px solid #141414;
+    border-radius: 3px;
+  
+    width: 80%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+  }
+
+
+  /* ------------- Campos del Formulario ------------- */
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input[type="text"],
+  .form-row input[type="email"] {
+    background-color: #f0f0f0;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+
+
+
+
+
+
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #f0f0f0;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+
+  .form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+  
+    color: #ffffff;
+    background-color: #5995da;
+  
+  
+    border: none;
+    border-radius: 3px;
+  
+  
+    padding: 10px 40px;
+    cursor: pointer;
+  }
+  
+  
+  .form-row button:hover {
+    background-color: #76aeed;
+  }
+  
+  
+  .form-row button:active {
+    background-color: #407fc7;
+  }
+
+/* Cambios para pantallas de mas de 764px */
+@media only screen and (min-width: 700px) {
+    .form-header {
+      padding: 50px;
+    }
+  
+    .form-row {
+      flex-direction: row;
+      align-items: flex-start;
+      margin-bottom: 1px;
+    }
+    .form-row input[type="email"],.form-row input[type="text"] {
+      width: 400px;
+      height: initial;
+      margin-bottom: 30px;
+    
+    }
+   
+    .form-row label {
+      text-align: right;
+      width: 120px;
+      margin-top: 7px;
+      padding-right: 20px;
+      margin-left: 100px;
+    }
+      
+  .form-row textarea {
+    width: 250px;
+  }
+.form-row button {
+      margin-left: 620px;
+  }
+
+
+
+
+
+
+
+  }
+
+/* Cambios para pantallas de menos de 764px */
