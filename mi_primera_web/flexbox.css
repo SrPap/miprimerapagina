@@ -1,0 +1,54 @@
+a {
+text-decoration: none;
+}
+
+ol,ul{
+    list-style: none;
+    align-items: center;
+}
+
+header, a, i {
+    color: rgb(62, 105, 60);
+    font-size: 20px;
+    padding: 0,5cm;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1.1cm;
+}
+
+header nav ul li a {
+    color: rgb(0, 0, 0);
+}
+
+/* * { 
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+
+.barradeestado{
+   
+    font-family: Arial black;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+ box-sizing: solid;
+    background-color: rgb(18, 119, 31);
+
+    text-align: center;
+}
+
+
+
+@media (max-width: 768px) {
+   .barradeestado{
+       background-color: rgb(17, 252, 68);
+box-sizing: content-box;
+
+   }
+   
+}
+
